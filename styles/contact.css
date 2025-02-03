@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="/home-page/index.html">Home</a></li>
+                <li><a href="/portfolio/index.html">Portfolio</a></li>
+                <li><a href="/blog/index.html">Blog</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact-info">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+        <div class="contact-details">
+            <p><strong>📍 Address:</strong> 123 Business Street, New York, NY 10001</p>
+            <p><strong>📧 Email:</strong> contact@mywebsite.com</p>
+            <p><strong>📞 Phone:</strong> +1 234 567 890</p>
+        </div>
+    </section>
+
+    <section id="contact-form">
+        <h2>Send a Message</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy</p>
+    </footer>
+</body>
+</html>
